@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a735bae80f48e4d8f68f82906ab93b, type: 3}
+  m_Name: ResourcesData
+  m_EditorClassIdentifier: 
+  spritePath: 
+  audioClipPath: 
+  prefabPath: Z:/Workspace/Sample/Assets/Layer Lab/GUI Pro-CasualGame/Prefabs/Prefabs_DemoScene_Particle
+  Sprites:
+    list: []
+  AudioClips:
+    list: []
+  Prefabs:
+    list:
+    - key: Fx_Rotate_Light01
+      value: {fileID: 8217767012232148901, guid: 086535fe746a24b5a9e8e6936063074c, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Rotate_Light02
+      value: {fileID: 3399755011153214662, guid: b810bd8deadd946908640d87a6a01ccf, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Rotate_Light03
+      value: {fileID: 8792090482953444565, guid: ffde5f937f43e45f48b9c4e7094b1daa, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Rotate_Light04
+      value: {fileID: 9094464860163139865, guid: dea0d8de0a89f421ca323e9a3ca797e9, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Rotate_Light05
+      value: {fileID: 2285705963712750616, guid: 268324af584364d348cd0e2eefe493eb, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Rotate_Light06
+      value: {fileID: 696050006053725663, guid: 699ad122873c34a34818e185b77d4ac3, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Shines_Glow01
+      value: {fileID: 5870961016085356514, guid: 8be6402111368481290cfa575c0df8ff, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Shines_Glow02
+      value: {fileID: 1215798536009484873, guid: 01ab752e9d7ce44c894e76994bc61fcc, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Shines_Glow03
+      value: {fileID: 4142225593841114467, guid: 93de259191edb408eaf9a2e960277512, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Shines_Light01
+      value: {fileID: 5663393607302460044, guid: df82ba38001c04f37a0af35f7e45ff04, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Shines_Light02
+      value: {fileID: 9144540493384991205, guid: 09ee501c197b44229b8de422eb1cbfc3, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Snow
+      value: {fileID: 8231010828821229296, guid: 750990e90431f499487035e155ff4b93, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar01_ClearBlue
+      value: {fileID: 6262897069630474460, guid: b5db5df78c92b4d95902c8eca6ce2d50, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar01_ClearGreen
+      value: {fileID: 8495791683878453715, guid: 11c77f14a9c554677a14e9dd4b5a5d0c, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar01_ClearPurple
+      value: {fileID: 3174117913503012253, guid: e909e46486694411eb8c10d1bfab7b4d, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar01_ClearRed
+      value: {fileID: 5699516241699941912, guid: c61e7c8151aef4aee958f7d11b01863a, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar01_ClearWhite
+      value: {fileID: 6292837706139258096, guid: b770d6b6b11004ed39f2413fae2c34b9, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar01_ClearYellow
+      value: {fileID: 5415688464740555891, guid: 4b0d8f1050d9940e69298d34e707728f, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar02_BlurryBlue
+      value: {fileID: 4099179305680476633, guid: af857985d16164ce08addf366f1a0ee1, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar02_BlurryGreen
+      value: {fileID: 612440817581274200, guid: b272963bdf5ad4eda92eee3e922bbc79, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar02_BlurryPurple
+      value: {fileID: 6187844187017179024, guid: 95f9b4e35b99d4483be46036d7063076, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar02_BlurryRed
+      value: {fileID: 6006316041732849400, guid: 5e415b3dc792e4bc49fb25d7de407abd, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar02_BlurryWhite
+      value: {fileID: 1609036716917709864, guid: 07244fc016be747c2a1ecfba4c949872, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_LongStar02_BlurryYellow
+      value: {fileID: 8735514167715282494, guid: 0999bc70ddb604b01b7df84108714568, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star01_CustomColor_Blue
+      value: {fileID: 2780138041969099248, guid: 9577694fcc7544ebda745a73a601862c, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star01_CustomColor_Green
+      value: {fileID: 2364759206347289372, guid: cc85d80a7d0904dd4831aed1e49c1eb9, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star01_CustomColor_Pink
+      value: {fileID: 4324815221259101786, guid: c82dc5dec274946f786a4221fa911ee8, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star01_CustomColor_White
+      value: {fileID: 8815134700910092423, guid: 98cbb119042f746088032e765ef3b1d1, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star01_CustomColor_Yellow
+      value: {fileID: 1849074136873566357, guid: b767da134f1d6419caf90850d2b1454d, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star02_ClearBlue
+      value: {fileID: 458260659538942644, guid: d8f2c27aff19543c1b3afc28bd75cde3, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star02_ClearGreen
+      value: {fileID: 635934297835366553, guid: 29e21c39a9020411eac3f3b55c2eef01, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star02_ClearPurple
+      value: {fileID: 8761360250279255430, guid: c4fa1bbfaf01b4b95b9fb9d369d0e2a6, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star02_ClearRed
+      value: {fileID: 636521397519134278, guid: b621e5189858c4bada56b90280bc62b5, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star02_ClearWhite
+      value: {fileID: 83780807682971042, guid: 0b38262b712984ef29726269c228e237, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_Star02_ClearYellow
+      value: {fileID: 4055474236491857460, guid: 352c768b09ea84c7eb782321892ed7a0, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar01_BlurryBlue
+      value: {fileID: 4399756756968526145, guid: 2b04ae8f7bfe94d539c75e8b6b4d4da3, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar01_BlurryGreen
+      value: {fileID: 5785848492108427338, guid: 07ec2176522ca454fa10ed02baedfb77, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar01_BlurryPurple
+      value: {fileID: 1488426965318372342, guid: 1e5ba30d40ef14197a99be62f5f43e96, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar01_BlurryRed
+      value: {fileID: 2721225891188606015, guid: 879c4f3ad0c4b4c0fb87cf71e6507140, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar01_BlurryWhite
+      value: {fileID: 1740981106159466117, guid: 66cf2d3b3ced843ac983d078202ab38d, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar01_BlurryYellow
+      value: {fileID: 1942969018554009084, guid: 670f74eb019d54f83be52c178c883c40, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar02_ClearBlue
+      value: {fileID: 5346822713734259208, guid: f6f09cbd2620441f290836455f932e22, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar02_ClearGreen
+      value: {fileID: 1085766940661128725, guid: 3038707d3f6c64ace9269813e11edd49, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar02_ClearPurple
+      value: {fileID: 4706305604179060356, guid: b3f1ba70e7e4049a2a712dd0d0ebade2, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar02_ClearRed
+      value: {fileID: 4407320243532393352, guid: 52d1380e7746c4784bb838b057a1586f, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar02_ClearWhite
+      value: {fileID: 7483051505748556428, guid: 8ee78af6feb664ef195a29b5d8e750af, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Sparkle_XStar02_ClearYellow
+      value: {fileID: 3712088427258064002, guid: 5e076c2050af74a1bb547e9df94e3083, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Circle01
+      value: {fileID: 796810422280815289, guid: 10946a8e3fb2543ca87b9ab8465e46fa, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Circle02
+      value: {fileID: 1765545165444144551, guid: 586fbfa5d7aae4d90b9d987fa94eee52, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Star01
+      value: {fileID: 3883004126413938183, guid: d7fe14d8082b14f1c891cd211cd14863, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Star02
+      value: {fileID: 4541188829483667197, guid: 2d4afb3207af64972a49cdf7ef16823a, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Star03
+      value: {fileID: 5563892033390257488, guid: a16da033cc05545339a24b6cd397b174, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Star04
+      value: {fileID: 7599557402129107506, guid: 0dd1048b678f141ebbbff014ab7f72af, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Star05
+      value: {fileID: 3722213980282476241, guid: 7bf27f41a19ae4ab2aaf159672ca03c4, type: 3}
+      duplicatedKey: 0
+    - key: Fx_Spread_Star06
+      value: {fileID: 3437905030894270860, guid: 133b042ef2b4c4d788b89a9d17602e4b, type: 3}
+      duplicatedKey: 0

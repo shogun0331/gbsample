@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e317c2797f8940b380f76a3839681, type: 3}
+  m_Name: LocalizationData
+  m_EditorClassIdentifier: 
+  Datas:
+    list:
+    - key: 0
+      value:
+        list:
+        - key: 23
+          value: Battle
+          duplicatedKey: 0
+        - key: 10
+          value: Battle
+          duplicatedKey: 0
+        - key: 22
+          value: "\u6226\u3044"
+          duplicatedKey: 0
+        - key: 40
+          value: "\u6218\u6597"
+          duplicatedKey: 0
+        - key: 41
+          value: "\u6230\u9B25"
+          duplicatedKey: 0
+        - key: 15
+          value: Schlacht
+          duplicatedKey: 0
+        - key: 21
+          value: Battaglia
+          duplicatedKey: 0
+        - key: 34
+          value: Batalla
+          duplicatedKey: 0
+        - key: 14
+          value: Bataille
+          duplicatedKey: 0
+        - key: 20
+          value: Pertempuran
+          duplicatedKey: 0
+        - key: 28
+          value: Batalha
+          duplicatedKey: 0
+        - key: 39
+          value: "Tr\u1EADn chi\u1EBFn"
+          duplicatedKey: 0
+        - key: 37
+          value: "Sava\u015F"
+          duplicatedKey: 0
+        - key: 36
+          value: "\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D\u0E2A\u0E39\u0E49"
+          duplicatedKey: 0
+        - key: 30
+          value: "\u0411\u0438\u0442\u0432\u0430"
+          duplicatedKey: 0
+        - key: 42
+          value: "\u0932\u0921\u093C\u093E\u0908"
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 1
+      value:
+        list:
+        - key: 23
+          value: "\uB2E4\uC2DC\uD558\uAE30"
+          duplicatedKey: 0
+        - key: 10
+          value: Retry
+          duplicatedKey: 0
+        - key: 22
+          value: "\u30EA\u30C8\u30E9\u30A4"
+          duplicatedKey: 0
+        - key: 40
+          value: "\u518D\u6B21\u6311\u6218"
+          duplicatedKey: 0
+        - key: 41
+          value: "\u518D\u6B21\u6311\u6230"
+          duplicatedKey: 0
+        - key: 15
+          value: Erneut versuchen
+          duplicatedKey: 0
+        - key: 21
+          value: Ritenta
+          duplicatedKey: 0
+        - key: 34
+          value: Volver a Intentar
+          duplicatedKey: 0
+        - key: 14
+          value: "R\xE9essayer"
+          duplicatedKey: 0
+        - key: 20
+          value: Ulang
+          duplicatedKey: 0
+        - key: 28
+          value: Tentar novamente
+          duplicatedKey: 0
+        - key: 39
+          value: "Th\u1EED l\u1EA1i"
+          duplicatedKey: 0
+        - key: 37
+          value: Yeniden deneyin
+          duplicatedKey: 0
+        - key: 36
+          value: "\u0E25\u0E2D\u0E07\u0E2D\u0E35\u0E01\u0E04\u0E23\u0E31\u0E49\u0E07"
+          duplicatedKey: 0
+        - key: 30
+          value: "\u0417\u0430\u043D\u043E\u0432\u043E"
+          duplicatedKey: 0
+        - key: 42
+          value: "\u092B\u093F\u0930 \u0915\u094B\u0936\u093F\u0936 \u0915\u0930\u0947\u0902"
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 2
+      value:
+        list:
+        - key: 23
+          value: "\uC810\uC218"
+          duplicatedKey: 0
+        - key: 10
+          value: Score
+          duplicatedKey: 0
+        - key: 22
+          value: "\u30B9\u30B3\u30A2"
+          duplicatedKey: 0
+        - key: 40
+          value: "\u5F97\u5206"
+          duplicatedKey: 0
+        - key: 41
+          value: "\u5F97\u5206"
+          duplicatedKey: 0
+        - key: 15
+          value: Punktzahl
+          duplicatedKey: 0
+        - key: 21
+          value: Punto
+          duplicatedKey: 0
+        - key: 34
+          value: Puntaje
+          duplicatedKey: 0
+        - key: 14
+          value: Score
+          duplicatedKey: 0
+        - key: 20
+          value: Skor
+          duplicatedKey: 0
+        - key: 28
+          value: "Pontua\xE7\xE3o"
+          duplicatedKey: 0
+        - key: 39
+          value: "\u0110i\u1EC3m"
+          duplicatedKey: 0
+        - key: 37
+          value: Gol
+          duplicatedKey: 0
+        - key: 36
+          value: "\u0E04\u0E30\u0E41\u0E19\u0E19"
+          duplicatedKey: 0
+        - key: 30
+          value: "\u0421\u0447\u0435\u0442"
+          duplicatedKey: 0
+        - key: 42
+          value: "\u0905\u0902\u0915"
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 9
+      value:
+        list:
+        - key: 23
+          value: "\uC0C1\uC810"
+          duplicatedKey: 0
+        - key: 10
+          value: Shop
+          duplicatedKey: 0
+        - key: 22
+          value: "\u30B7\u30E7\u30C3\u30D7"
+          duplicatedKey: 0
+        - key: 40
+          value: "\u5546\u5E97"
+          duplicatedKey: 0
+        - key: 41
+          value: "\u5546\u5E97"
+          duplicatedKey: 0
+        - key: 15
+          value: SHOP
+          duplicatedKey: 0
+        - key: 21
+          value: NEGOZIO
+          duplicatedKey: 0
+        - key: 34
+          value: TIENDA
+          duplicatedKey: 0
+        - key: 14
+          value: BOUTIQUE
+          duplicatedKey: 0
+        - key: 20
+          value: TOKO
+          duplicatedKey: 0
+        - key: 28
+          value: LOJA
+          duplicatedKey: 0
+        - key: 39
+          value: "C\u1EECA H\xC0NG"
+          duplicatedKey: 0
+        - key: 37
+          value: "MA\u011EAZA"
+          duplicatedKey: 0
+        - key: 36
+          value: "\u0E23\u0E49\u0E32\u0E19\u0E04\u0E49\u0E32"
+          duplicatedKey: 0
+        - key: 30
+          value: "\u041C\u0410\u0413\u0410\u0417\u0418\u041D"
+          duplicatedKey: 0
+        - key: 42
+          value: "\u0936\u0949\u092A"
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 34
+      value:
+        list:
+        - key: 23
+          value: "\uC2A4\uD0A8"
+          duplicatedKey: 0
+        - key: 10
+          value: Skin
+          duplicatedKey: 0
+        - key: 22
+          value: "\u30B9\u30AD\u30F3"
+          duplicatedKey: 0
+        - key: 40
+          value: "\u76AE\u80A4"
+          duplicatedKey: 0
+        - key: 41
+          value: "\u76AE\u819A"
+          duplicatedKey: 0
+        - key: 15
+          value: Haut
+          duplicatedKey: 0
+        - key: 21
+          value: Skin
+          duplicatedKey: 0
+        - key: 34
+          value: Piel
+          duplicatedKey: 0
+        - key: 14
+          value: Peau
+          duplicatedKey: 0
+        - key: 20
+          value: Skin
+          duplicatedKey: 0
+        - key: 28
+          value: Pele
+          duplicatedKey: 0
+        - key: 39
+          value: Da
+          duplicatedKey: 0
+        - key: 37
+          value: Deri
+          duplicatedKey: 0
+        - key: 36
+          value: "\u0E2A\u0E01\u0E34\u0E19"
+          duplicatedKey: 0
+        - key: 30
+          value: "\u0421\u043A\u0438\u043D"
+          duplicatedKey: 0
+        - key: 42
+          value: "\u0938\u094D\u0915\u093F\u0928"
+          duplicatedKey: 0
+      duplicatedKey: 0
+    - key: 50
+      value:
+        list:
+        - key: 23
+          value: "\uC815\uBCF4"
+          duplicatedKey: 0
+        - key: 10
+          value: INFO
+          duplicatedKey: 0
+        - key: 22
+          value: "\u60C5\u5831"
+          duplicatedKey: 0
+        - key: 40
+          value: "\u4FE1\u606F"
+          duplicatedKey: 0
+        - key: 41
+          value: "\u8CC7\u8A0A"
+          duplicatedKey: 0
+        - key: 15
+          value: Info
+          duplicatedKey: 0
+        - key: 21
+          value: Info
+          duplicatedKey: 0
+        - key: 34
+          value: Info
+          duplicatedKey: 0
+        - key: 14
+          value: Info
+          duplicatedKey: 0
+        - key: 20
+          value: Info
+          duplicatedKey: 0
+        - key: 28
+          value: Info
+          duplicatedKey: 0
+        - key: 39
+          value: Info
+          duplicatedKey: 0
+        - key: 37
+          value: Bilgi
+          duplicatedKey: 0
+        - key: 36
+          value: "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25"
+          duplicatedKey: 0
+        - key: 30
+          value: Info
+          duplicatedKey: 0
+        - key: 42
+          value: "\u091C\u093E\u0928\u0915\u093E\u0930\u0940"
+          duplicatedKey: 0
+      duplicatedKey: 0
