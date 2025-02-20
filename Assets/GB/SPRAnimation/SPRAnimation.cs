@@ -211,10 +211,13 @@ namespace GB
         }
 
 
+        const string GAME = "GAME";
+
+
         void Update()
         {
             if (_isPlaying == false) return;
-            if (_SPRAnimation != null) SPRUpdate(Time.deltaTime);
+            if (_SPRAnimation != null) SPRUpdate(GBTime.GetDeltaTime(GAME));
         }
 
         #endregion

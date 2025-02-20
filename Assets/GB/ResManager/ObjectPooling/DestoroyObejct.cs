@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DestoroyObejct : MonoBehaviour
 {
+    const string GAME = "GAME";
     public float EndTime = 2.0f;
 
     float _time;
@@ -14,7 +15,7 @@ public class DestoroyObejct : MonoBehaviour
     }
     void Update()
     {
-        _time += Time.deltaTime;
+        _time += GBTime.GetDeltaTime(GAME);
         if(_time > EndTime)
         {
             GB.ObjectPooling.Return(this.gameObject);

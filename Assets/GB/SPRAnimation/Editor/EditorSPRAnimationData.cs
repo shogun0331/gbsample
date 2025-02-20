@@ -6,7 +6,6 @@ using System.IO;
 
 #if UNITY_EDITOR
 using UnityEditor;
-using GB.Edit;
 
 namespace GB
 {
@@ -18,7 +17,6 @@ namespace GB
         public int CurIDX;
 
         public bool IsPlaying;
-        TimeControl timeControl;
         float _speed = 1;
 
         string SkinName;
