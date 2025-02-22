@@ -30,6 +30,10 @@ namespace GB
             _callSaveSubject.Throttle(System.TimeSpan.FromSeconds(1))
             .Subscribe(_ =>Save())
             .AddTo(this);
+
+            
+
+
             LocalizationManager.I.SetSystemLanguage(PlayerPrefs.GetString("Language", SystemLanguage.English.ToJson()));
             LocalizationManager.I.Load();
              

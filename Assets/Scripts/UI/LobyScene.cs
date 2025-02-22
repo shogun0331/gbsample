@@ -1,9 +1,11 @@
 
 using GB;
+using TMPro;
 using UnityEngine;
 
 public class LobyScene : UIScreen
 {
+    public TextMeshProUGUI text;
 
     
 

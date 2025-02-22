@@ -1188,6 +1188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 667331462}
   - component: {fileID: 667331465}
+  - component: {fileID: 667331469}
   - component: {fileID: 667331464}
   - component: {fileID: 667331463}
   - component: {fileID: 667331467}
@@ -1376,6 +1377,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: 'TODO :: Clan Button'
+--- !u!114 &667331469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667331461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &671337070
 GameObject:
   m_ObjectHideFlags: 0
@@ -7024,6 +7109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059988859}
   - component: {fileID: 1059988863}
+  - component: {fileID: 1059988866}
   - component: {fileID: 1059988862}
   - component: {fileID: 1059988861}
   - component: {fileID: 1059988860}
@@ -7211,6 +7297,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: 'TODO :: Inventory Button'
+--- !u!114 &1059988866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059988858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1112826272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7221,6 +7391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112826273}
   - component: {fileID: 1112826278}
+  - component: {fileID: 1112826279}
   - component: {fileID: 1112826277}
   - component: {fileID: 1112826276}
   - component: {fileID: 1112826275}
@@ -7366,6 +7537,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112826272}
   m_CullTransparentMesh: 0
+--- !u!114 &1112826279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112826272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1127094773
 GameObject:
   m_ObjectHideFlags: 0
@@ -7488,6 +7743,7 @@ GameObject:
   - component: {fileID: 1192555211}
   - component: {fileID: 1192555210}
   - component: {fileID: 1192555209}
+  - component: {fileID: 1192555213}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -7584,6 +7840,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192555207}
   m_CullTransparentMesh: 1
+--- !u!114 &1192555213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192555207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2032b0dd773cc814d8beafc747c852d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _duration: 2
+  PlayAutomaticall: 1
 --- !u!1 &1193268244
 GameObject:
   m_ObjectHideFlags: 0
@@ -7749,6 +8019,7 @@ GameObject:
   - component: {fileID: 1231895034}
   - component: {fileID: 1231895033}
   - component: {fileID: 1231895032}
+  - component: {fileID: 1231895036}
   m_Layer: 5
   m_Name: Button_Battle
   m_TagString: Untagged
@@ -7872,6 +8143,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231895030}
   m_CullTransparentMesh: 0
+--- !u!114 &1231895036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231895030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1249663968
 GameObject:
   m_ObjectHideFlags: 0
@@ -8023,6 +8378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308161383}
   - component: {fileID: 1308161388}
+  - component: {fileID: 1308161389}
   - component: {fileID: 1308161387}
   - component: {fileID: 1308161386}
   - component: {fileID: 1308161385}
@@ -8168,6 +8524,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308161382}
   m_CullTransparentMesh: 0
+--- !u!114 &1308161389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308161382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1309314169
 GameObject:
   m_ObjectHideFlags: 0
@@ -8287,6 +8727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1319087182}
   - component: {fileID: 1319087186}
+  - component: {fileID: 1319087189}
   - component: {fileID: 1319087185}
   - component: {fileID: 1319087184}
   - component: {fileID: 1319087183}
@@ -8475,6 +8916,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: 'TODO :: Shop Button'
+--- !u!114 &1319087189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319087181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1347157011
 GameObject:
   m_ObjectHideFlags: 0
@@ -8729,6 +9254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373784167}
   - component: {fileID: 1373784172}
+  - component: {fileID: 1373784173}
   - component: {fileID: 1373784171}
   - component: {fileID: 1373784170}
   - component: {fileID: 1373784169}
@@ -8874,6 +9400,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373784166}
   m_CullTransparentMesh: 0
+--- !u!114 &1373784173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373784166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1414545959
 GameObject:
   m_ObjectHideFlags: 0
@@ -8884,6 +9494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414545960}
   - component: {fileID: 1414545964}
+  - component: {fileID: 1414545967}
   - component: {fileID: 1414545963}
   - component: {fileID: 1414545962}
   - component: {fileID: 1414545961}
@@ -9071,6 +9682,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: 'TODO :: CardButton'
+--- !u!114 &1414545967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414545959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351218b1c53f57c4ca8672ebd094bb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonData:
+    BtnState:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 1
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+    BtnStyle:
+      list:
+      - key: 0
+        value: 1
+        duplicatedKey: 0
+      - key: 1
+        value: 0
+        duplicatedKey: 0
+      - key: 2
+        value: 0
+        duplicatedKey: 0
+    DurationValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.2
+        duplicatedKey: 0
+      - key: 2
+        value: 0.2
+        duplicatedKey: 0
+    PowerValues:
+      list:
+      - key: 0
+        value: 0.2
+        duplicatedKey: 0
+      - key: 1
+        value: 0.9
+        duplicatedKey: 0
+      - key: 2
+        value: 1
+        duplicatedKey: 0
+  _ButtonUpSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ButtonDownSkinner:
+    _ChangeImages:
+      list: []
+    _ChangeColors:
+      list: []
+    _ChangeScale:
+      list: []
+    _IsOnGameObjects: []
+    _IsOffGameObjects: []
+  _ClickEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _DownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _UpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1432303856
 GameObject:
   m_ObjectHideFlags: 0
@@ -15198,6 +15893,9 @@ MonoBehaviour:
     list: []
   mSkinner:
     list: []
+  mTMPText:
+    list: []
+  text: {fileID: 0}
 --- !u!114 &1959024051
 MonoBehaviour:
   m_ObjectHideFlags: 0
