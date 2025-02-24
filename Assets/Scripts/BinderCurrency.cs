@@ -4,7 +4,7 @@ using GB;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BinderCurrency : MonoBehaviour,IView
+public class BinderCurrency : MonoBehaviour
 {
     [SerializeField] string _ODataKey;
 
@@ -25,18 +25,18 @@ public class BinderCurrency : MonoBehaviour,IView
 
         }
 
-        ODataBaseManager.Bind(_ODataKey,this);
+        ODataBaseManager.Bind(this,_ODataKey,(data)=>
+        {
+            if(_text != null)
+            _text.text = data.OConvert<int>().ToString("N0");
+        });
     }
+
+
 
     void OnDisable()
     {
-        ODataBaseManager.UnBind(_ODataKey,this);
+        ODataBaseManager.UnBind(this,_ODataKey);
     }
 
-    public void ViewQuick(string key, IOData data)
-    {
-        if(_text != null)
-         _text.text = data.OConvert<int>().ToString("N0");
-        
-    }
 }
